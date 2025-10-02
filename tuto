@@ -1,0 +1,5 @@
+Commande pour convertir un pdf en pdf version 1.4 : 
+qpdf --linearize --force-version=1.4 MNE3SD25_AUTHENTICATION_ADMIN_DOC_BLOCKCHAIN.pdf MNE3SD25_AUTHENTICATION_ADMIN_DOC_BLOCKCHAIN_Forced.pdf
+
+Si qpdf n'est pas installé, le faire avecHomebrew :
+brew install qpdf
